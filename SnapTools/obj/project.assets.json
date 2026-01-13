@@ -1,0 +1,238 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETFramework,Version=v4.0": {
+      "Win32Net/1.4.0": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "System.Management"
+        ],
+        "compile": {
+          "lib/net40/Win32.dll": {}
+        },
+        "runtime": {
+          "lib/net40/Win32.dll": {}
+        }
+      },
+      "ScreenCapturerSharp/1.4.1": {
+        "type": "project",
+        "framework": ".NETFramework,Version=v4.0",
+        "compile": {
+          "bin/placeholder/ScreenCapturerSharp.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ScreenCapturerSharp.dll": {}
+        }
+      }
+    },
+    ".NETFramework,Version=v4.0/win": {
+      "Win32Net/1.4.0": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "System.Management"
+        ],
+        "compile": {
+          "lib/net40/Win32.dll": {}
+        },
+        "runtime": {
+          "lib/net40/Win32.dll": {}
+        }
+      },
+      "ScreenCapturerSharp/1.4.1": {
+        "type": "project",
+        "framework": ".NETFramework,Version=v4.0",
+        "compile": {
+          "bin/placeholder/ScreenCapturerSharp.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ScreenCapturerSharp.dll": {}
+        }
+      }
+    },
+    ".NETFramework,Version=v4.0/win-arm64": {
+      "Win32Net/1.4.0": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "System.Management"
+        ],
+        "compile": {
+          "lib/net40/Win32.dll": {}
+        },
+        "runtime": {
+          "lib/net40/Win32.dll": {}
+        }
+      },
+      "ScreenCapturerSharp/1.4.1": {
+        "type": "project",
+        "framework": ".NETFramework,Version=v4.0",
+        "compile": {
+          "bin/placeholder/ScreenCapturerSharp.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ScreenCapturerSharp.dll": {}
+        }
+      }
+    },
+    ".NETFramework,Version=v4.0/win-x64": {
+      "Win32Net/1.4.0": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "System.Management"
+        ],
+        "compile": {
+          "lib/net40/Win32.dll": {}
+        },
+        "runtime": {
+          "lib/net40/Win32.dll": {}
+        }
+      },
+      "ScreenCapturerSharp/1.4.1": {
+        "type": "project",
+        "framework": ".NETFramework,Version=v4.0",
+        "compile": {
+          "bin/placeholder/ScreenCapturerSharp.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ScreenCapturerSharp.dll": {}
+        }
+      }
+    },
+    ".NETFramework,Version=v4.0/win-x86": {
+      "Win32Net/1.4.0": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "System.Management"
+        ],
+        "compile": {
+          "lib/net40/Win32.dll": {}
+        },
+        "runtime": {
+          "lib/net40/Win32.dll": {}
+        }
+      },
+      "ScreenCapturerSharp/1.4.1": {
+        "type": "project",
+        "framework": ".NETFramework,Version=v4.0",
+        "compile": {
+          "bin/placeholder/ScreenCapturerSharp.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ScreenCapturerSharp.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Win32Net/1.4.0": {
+      "sha512": "qsdsxmoNTnFQLzMX9gARE5BeADv+CfLfbmm6P5OGjhSHlndX3qiWKXjYnTxpg+CpuXmmHrmux6s+gScMXS/kXg==",
+      "type": "package",
+      "path": "win32net/1.4.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "ico.png",
+        "lib/net40/Win32.dll",
+        "lib/net45/Win32.dll",
+        "lib/net451/Win32.dll",
+        "lib/net452/Win32.dll",
+        "lib/net46/Win32.dll",
+        "lib/net461/Win32.dll",
+        "lib/net462/Win32.dll",
+        "lib/net47/Win32.dll",
+        "lib/net471/Win32.dll",
+        "lib/net472/Win32.dll",
+        "lib/net48/Win32.dll",
+        "lib/net5.0-windows7.0/Win32.dll",
+        "lib/net6.0-windows7.0/Win32.dll",
+        "lib/net7.0-windows7.0/Win32.dll",
+        "lib/net8.0-windows7.0/Win32.dll",
+        "lib/netcoreapp3.1/Win32.dll",
+        "win32net.1.4.0.nupkg.sha512",
+        "win32net.nuspec"
+      ]
+    },
+    "ScreenCapturerSharp/1.4.1": {
+      "type": "project",
+      "path": "../ScreenCapturer/ScreenCapturer.csproj",
+      "msbuildProject": "../ScreenCapturer/ScreenCapturer.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETFramework,Version=v4.0": [
+      "ScreenCapturerSharp >= 1.4.1",
+      "Win32Net >= 1.4.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\ard\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "J:\\GitHub\\ScreenCapturer\\SnapTools\\SnapTools.csproj",
+      "projectName": "Yt.SnapTools",
+      "projectPath": "J:\\GitHub\\ScreenCapturer\\SnapTools\\SnapTools.csproj",
+      "packagesPath": "C:\\Users\\ard\\.nuget\\packages\\",
+      "outputPath": "J:\\GitHub\\ScreenCapturer\\SnapTools\\obj\\",
+      "projectStyle": "PackageReference",
+      "skipContentFileWrite": true,
+      "UsingMicrosoftNETSdk": false,
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\ard\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 19.2.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net40"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\DevExpress 19.2\\Components\\System\\Components\\Packages": {},
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net40": {
+          "projectReferences": {
+            "J:\\GitHub\\ScreenCapturer\\ScreenCapturer\\ScreenCapturer.csproj": {
+              "projectPath": "J:\\GitHub\\ScreenCapturer\\ScreenCapturer\\ScreenCapturer.csproj"
+            }
+          }
+        }
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
+      }
+    },
+    "frameworks": {
+      "net40": {
+        "dependencies": {
+          "Win32Net": {
+            "target": "Package",
+            "version": "[1.4.0, )"
+          }
+        }
+      }
+    },
+    "runtimes": {
+      "win": {
+        "#import": []
+      },
+      "win-arm64": {
+        "#import": []
+      },
+      "win-x64": {
+        "#import": []
+      },
+      "win-x86": {
+        "#import": []
+      }
+    }
+  }
+}

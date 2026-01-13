@@ -1,0 +1,12 @@
+/ScreenCapturer/bin
+/ScreenCapturer/obj
+/ScreenCapturerDemo/bin
+/ScreenCapturerDemo/obj
+/.vs/ScreenCapturer/FileContentIndex
+/.vs/ScreenCapturer/v17/.suo
+/.vs/ScreenCapturer/v17/.futdcache.v1
+/.vs/ScreenCapturer/DesignTimeBuild/.dtbcache.v2
+/.vs/ProjectEvaluation/screencapturer.projects.v2
+/.vs/ProjectEvaluation/screencapturer.metadata.v2
+/.vs
+/SnapTools/obj/Release/DesignTimeResolveAssemblyReferencesInput.cache
